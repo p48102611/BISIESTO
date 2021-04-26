@@ -1,5 +1,5 @@
 def esBisiesto(num)
-    if num == 4
+    if num % 4 == 0
         return true
     else
         return false
