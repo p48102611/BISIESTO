@@ -1,3 +1,7 @@
 def esBisiesto(num)
-    true
+    if num == 4
+        return true
+    else
+        return false
+    end
 end
